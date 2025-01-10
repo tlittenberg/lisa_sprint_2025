@@ -1,5 +1,6 @@
 # Welcome The 3rd LISA Sprint
 April 28-30 2025
+
 Huntsville, AL
 
 ## Announcement
@@ -16,3 +17,6 @@ In early January 2025 we will advertise the meeting website and application form
 Application form coming soon
 
 ## Logistics
+Information for planning your trip coming soon
+
+## Participants
