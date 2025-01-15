@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The 3rd LISA Sprint workshop in Huntsville, AL, April 28-30, 2025. Join us for a hands-on workshop advancing multimessenger astronomy with LISA.">
+  <title>The 3rd LISA Sprint | Huntsville, AL | April 28-30, 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      background-image: url('img/hsv_rocket.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    h1, h2, h3 {
+      font-family: 'Montserrat', sans-serif;  /* Header font */
+      color: #fff;
+    }
+
+    h2, h3 {
+      font-family: 'Poppins', sans-serif;  /* Secondary header font */
+    }
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    ul {
+        list-style-type: disc; /* Default bullet style */
+        margin-left: 40px; /* Indents the entire list */
+        padding: 0;
+    }
+
+    ul li {
+        margin-bottom: 10px; /* Adds space between list items */
+    }
+    /* Background Image */
+    .hero {
+      position: relative;
+      height: 100vh;
+      /*background: url('img/hsv_rocket.jpeg') no-repeat center center/cover;
+      background-size: cover;*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      padding: 0 20px;
+    }
+    /* Dark Overlay */
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);  /* Semi-transparent black */
+      z-index: -1;
+    }
+    .hero h1 {
+      font-size: 5.5rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Navigation */
+    nav {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Main Section */
+    .section {
+      padding: 60px 20px;
+    }
+    .section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    /* Call-to-action buttons */
+    .cta-button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      margin-top: 30px;
+      transition: background-color 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      .section h2 {
+        font-size: 2rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#apply">Apply</a>
+      <a href="mailto:tyson.b.littenberg@nasa.gov">Contact</a>
+    </nav>
+    <div class="hero-content">
+      <h1>The 3rd LISA Sprint</h1>
+      <p>April 28–30, 2025 | Huntsville, AL</p>
+    </div>
+  </div>
+
+  <!-- Workshop Overview Section -->
+  <section class="section">
+    <div class="container">
+      <h2 id="about">About the Workshop</h2>
+      <p>
+        The Laser Interferometer Space Antenna (LISA) is a joint effort of ESA and NASA to develop and operate the first space-based observatory of gravitational waves (GWs) in the millihertz frequency band. To prepare for LISA observations and its unique data products, we are organizing the 3rd LISA Sprint in Huntsville, AL, from Monday April 28 to Wednesday April 30, 2025.
+      </p>
+      <p>
+        The meeting's goals are two-fold:
+      </p>
+      <ul>
+        <li>Connect LISA data scientists with astronomers and astrophysicists who will incorporate LISA data products into their research.</li>
+        <li>Advance the research community’s readiness to capitalize on LISA observations.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Goals & Themes Section -->
+  <section class="section" style="background-color: rgba(0,0,0,0.5);">
+    <div class="container">
+      <h2 id="apply">Workshop Theme</h2>
+      <p>The theme for this third meeting is <strong>Time Domain and Multimessenger Astronomy with LISA</strong>. During the workshop, small interdisciplinary teams of researchers will come together to make concrete progress on concise projects and goals related to this scientific area.</p>
+      <p>Participants are encouraged to propose ideas and contribute material that aligns with the workshop’s format. This is a hands-on workshop with no traditional talks—only brief project pitches and a final "show and tell" to share progress with the group.</p>
+      <a href="#" class="cta-button">Apply for the Meeting</a>
+    </div>
+  </section>
+
+  <!-- Logistics Section -->
+  <section class="section">
+    <div class="container">
+      <h2>Logistics</h2>
+      <p>Information for planning your trip will be available soon. Stay tuned for more details on travel, accommodation, and venue information.</p>
+    </div>
+  </section>
+
+  <!-- Participant Section -->
+  <section class="section" style="background-color: rgba(0,0,0,0.5);">
+    <div class="container">
+      <h2>Who Should Attend?</h2>
+      <p>This workshop is ideal for researchers, astronomers, astrophysicists, and data scientists who wish to engage with LISA’s data and contribute to the future of gravitational wave astronomy.</p>
+      <a href="#" class="cta-button">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
+    <p>&copy; 2025 The 3rd LISA Sprint | All Rights Reserved</p>
+  </footer>
+
+
+</body>
+</html>
