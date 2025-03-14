@@ -163,7 +163,11 @@
         margin: 0;
         float: left;
     }
-
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
   </style>
 </head>
 <body>
@@ -227,6 +231,7 @@
     </div>
   </section>
 
+  <div style="clear: both;"></div>
 
   <!-- Footer Section -->
   <footer style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
